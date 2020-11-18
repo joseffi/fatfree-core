@@ -60,7 +60,7 @@ abstract class Magic implements ArrayAccess {
 	function offsetexists($key) {
 		return Base::instance()->visible($this,$key)?
 			isset($this->$key):
-			($this->exists($key) && $this->get($key)!==NULL);
+			$this->exists($key);
 	}
 
 	/**
