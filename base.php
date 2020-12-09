@@ -105,7 +105,7 @@ final class Base extends Prefab implements ArrayAccess {
 		//! Mapped PHP globals
 		GLOBALS='GET|POST|COOKIE|REQUEST|SESSION|FILES|SERVER|ENV',
 		//! HTTP verbs
-		VERBS='GET|HEAD|POST|JSONP|PUT|PATCH|DELETE|CONNECT|OPTIONS',
+		VERBS='GET|HEAD|POST|PUT|PATCH|DELETE|CONNECT|OPTIONS',
 		//! Default directory permissions
 		MODE=0755,
 		//! Syntax highlighting stylesheet
